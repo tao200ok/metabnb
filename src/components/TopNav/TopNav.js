@@ -2,7 +2,7 @@ import "./TopNav.css";
 
 import { Link } from "react-router-dom";
 
-import topLogo from "../../assets//img/top-logo.svg";
+import navLogo from "../../assets//img/nav-logo.png";
 
 const toggle = () => {
   const nav = document.getElementById("top-nav");
@@ -12,7 +12,7 @@ const toggle = () => {
 function TopNav() {
   return (
     <nav id="top-nav">
-      <img id="main-logo" src={topLogo} alt="metabnb logo" />
+      <img id="main-logo" src={navLogo} alt="metabnb logo" />
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -32,6 +32,7 @@ function TopNav() {
       </a>
       <div id="hamburger" onClick={toggle}>
         <div className="line top"></div>
+        <div className="line middle"></div>
         <div className="line bottom"></div>
       </div>
     </nav>

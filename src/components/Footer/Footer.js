@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="logo-container">
-        <img src={footerLogo} alt="metabnb logo" />
+        <img src={footerLogo} alt="metabnb logo" id="main-logo" />
         <div>
           <ul id="social-links">
             <li>
