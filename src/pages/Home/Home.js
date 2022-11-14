@@ -1,12 +1,13 @@
 import "./Home.css";
 
-import home_1 from '../../assets/img/hero-1.png'
-import home_2 from '../../assets/img/hero-2.png'
-import home_3 from '../../assets/img/hero-3.png'
-import home_4 from '../../assets/img/hero-4.png'
+import home_1 from "../../assets/img/hero-1.png";
+import home_2 from "../../assets/img/hero-2.png";
+import home_3 from "../../assets/img/hero-3.png";
+import home_4 from "../../assets/img/hero-4.png";
 import metamask from "../../assets/img/metamask.svg";
 import mbToken from "../../assets/img/mb-token.svg";
 import opensea from "../../assets/img/opensea.svg";
+import nfts from "../../assets/img/sample-nfts.png";
 
 function Home() {
   return (
@@ -18,7 +19,9 @@ function Home() {
             <span>Home</span> in the <span>Metaverse</span>
           </h1>
           <p>
-            we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone
+            we provide you access to luxury and affordable houses in the
+            metaverse, get a chance to turn your imagination to reality at your
+            comfort zone
           </p>
           <form>
             <input type="text" placeholder="Search for location" />
@@ -37,6 +40,20 @@ function Home() {
         <img src={metamask} alt="metamask" />
         <img src={opensea} alt="opensea" />
       </div>
+      <article id="nfts" className="showcase">
+        <section>
+          <h2>Metabnb NFTs</h2>
+          <p>
+            Discover our NFT gift cards collection. Loyal customers gets amazing
+            gift cards which are traded as NFTs. These NFTs gives our cutomer
+            access to loads of our exclusive services.
+          </p>
+          <a href="#learn-more">Learn more</a>
+        </section>
+        <div className="nft-showcase">
+          <img src={nfts} alt="metabnb nft" />
+        </div>
+      </article>
     </>
   );
 }

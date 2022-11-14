@@ -119,6 +119,57 @@
     width: 15%;
 }
 
+
+.showcase
+{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    padding: 6.94vw;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    align-items: center;
+}
+
+.showcase section
+{
+    color: white;
+}
+
+.showcase section h2
+{
+    font-size: 3.33vw;
+}
+
+.showcase section p
+{
+    margin: 2.43vw 0 3.89vw 0;
+    font-size: 1.25vw;
+}
+
+.showcase a
+{
+    font-size: 1.11vw;
+    color: #A02279;
+    background: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.97vw 2.29vw;
+    border-radius: 0.56vw;
+}
+
+.showcase .nft-showcase
+{
+    /* position: relative; */
+    width: 177.89vw;
+    height: 39.92vw;
+}
+
+.nft-showcase img
+{
+    /* position: absolute; */
+    width: 100%;
+}
+
 @media only screen and (max-width: 480px)
 {
     .hero
@@ -188,4 +239,33 @@
         width: 25%;
     }
 
+    .showcase
+    {
+        flex-direction: column;
+        gap: 15vh;
+    }
+
+    .showcase section h2
+    {
+        font-size: 6vw;
+    }
+
+    .showcase section p
+    {
+        margin: 5.86vw 0 7.5vw 0;
+        font-size: 3.6vw;
+    }
+
+    .showcase a
+    {
+        font-size: 3.33vw;
+        padding: 2.5vw 9.29vw;
+        border-radius: 1.67vw;
+    }
+
+    .showcase .nft-showcase
+    {
+        width: 100%;
+        height: auto;
+    }
 }
