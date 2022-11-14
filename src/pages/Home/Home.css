@@ -1,0 +1,191 @@
+.hero
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.98vw 7vw;
+}
+
+.hero .intro
+{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.hero>*
+{
+    width: 50%;
+    margin: 2.56vw 0px;
+}
+
+.intro h1
+{
+    font-size: 3.6vw;
+}
+
+.intro h1 span
+{
+    color: #A02279;
+}
+
+.intro p
+{
+    margin: 3.33vw 0px;
+    font-size: 1.4vw;
+    word-spacing: 0.6vw;
+}
+
+.intro form
+{
+    width: 42.92vw;
+}
+
+.intro form input
+{
+    padding: 1.25vw 1vw;
+    font-size: 1.11vw;
+}
+
+.intro input[type="text"]
+{
+    width: 55%;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid rgba(163, 163, 163, 1);
+}
+
+.intro input[type="submit"]
+{
+    display: inline-block;
+    width: 37.1%;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+    border-width: 0px;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+}
+
+.hero .homes
+{
+    display: grid;
+    grid-template-areas:
+        "gap1 two"
+        "one two"
+        "one four"
+        "three four"
+        "three gap2";
+    gap: 0.5vw;
+    width: 33.3vw;
+    height: 31.875vw;
+    margin-right: 2.4vw;
+}
+
+.homes .one
+{
+    grid-area: one;
+}
+
+.homes .two
+{
+    grid-area: two;
+}
+
+.homes .three
+{
+    grid-area: three;
+}
+
+.homes .four
+{
+    grid-area: four;
+}
+
+.homes img
+{
+    width: 100%;
+}
+
+.banner
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1vw;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.banner img
+{
+    width: 15%;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .hero
+    {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .hero>*
+    {
+        width: 100%;
+        margin: 8vw 0px 16vw 0px;
+    }
+
+    .intro
+    {
+        justify-content: space-around;
+    }
+
+    .intro h1
+    {
+        font-size: 6.5vw;
+    }
+
+    .intro p
+    {
+        font-size: 3vw;
+        margin: 8vw 0px;
+    }
+
+    .intro form
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    .intro form input
+    {
+        padding: 2vw;
+        font-size: 2.9vw;
+    }
+
+    .intro input[type='text']
+    {
+        width: 70%;
+    }
+
+    .intro input[type='submit']
+    {
+        width: 30%;
+    }
+
+    .hero .homes
+    {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+
+    .banner
+    {
+        padding: 3.33vw;
+    }
+
+    .banner img
+    {
+        width: 25%;
+    }
+
+}
