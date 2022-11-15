@@ -1,0 +1,221 @@
+div.modal-container
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(64, 64, 64, 0.3);
+}
+
+div.modal-body
+{
+    width: 42vw;
+    background: #ffffff;
+    border-radius: 1.11vw;
+    padding-bottom: 1.67vw;
+}
+
+.modal-body .modal-header
+{
+    padding: 1.67vw 2.22vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.07vw solid rgba(207, 216, 220, 1);
+}
+
+.modal-body>*
+{
+    margin: 0.83vw 2.22vw;
+}
+
+.modal-header h1
+{
+    font-size: 1.67vw;
+}
+
+.modal-header img
+{
+    width: 1.67vw;
+    height: 1.67vw;
+}
+
+.modal-body h2
+{
+    margin-top: 1.67vw;
+    font-size: 1.11vw;
+}
+
+.wallet-button
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.07vw solid rgba(207, 216, 220, 1);
+    border-radius: 0.56vw;
+    padding: 0.83vw;
+    transition: background 0.15s ease-in-out;
+}
+
+.wallet-button>*
+{
+    padding: 0 0.56vw;
+}
+
+.wallet-button>*:first-child
+{
+    width: 4.18vw;
+}
+
+.wallet-button p
+{
+    font-size: 1.11vw;
+}
+
+div.wallet-button>*:last-child
+{
+    width: 1.81vw;
+}
+
+.wallet-button img:last-child
+{
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+.wallet-button:hover
+{
+    background: #F8F9FA;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    div.modal-body
+    {
+        width: 55%;
+        border-radius: 1.56vw;
+        padding-bottom: 2.34vw;
+    }
+
+    .modal-body .modal-header
+    {
+        padding: 2.73vw 3.42vw;
+        border-bottom: 1px solid rgba(207, 216, 220, 1);
+    }
+
+    .modal-body>*
+    {
+        margin: 1.76vw 3.42vw;
+    }
+
+    .modal-header h1
+    {
+        font-size: 2.34vw;
+    }
+
+    .modal-header img {
+        width: 2.34vw;
+        height: 2.34vw;
+    }
+
+    .modal-body h2 {
+        margin-top: 2.64vw;
+        font-size: 1.76vw;
+    }
+
+    .wallet-button {
+        border: 1px solid rgba(207, 216, 220, 1);
+        border-radius: 1.37vw;
+        padding: 1.76vw;
+    }
+
+    .wallet-button>* {
+        padding: 0 1.17vw;
+    }
+
+    .wallet-button>*:first-child
+    {
+        width: 6.64vw;
+    }
+
+    .wallet-button p
+    {
+        font-size: 1.95vw;
+    }
+
+    div.wallet-button>*:last-child
+    {
+        width: 3.32vw;
+    }
+
+}
+
+@media only screen and (max-width: 480px)
+{
+    div.modal-body
+    {
+        border-radius: 3.3vw;
+        padding-bottom: 5vw;
+        width: 75%
+    }
+
+    .modal-body .modal-header
+    {
+        padding: 2.92vw 4.58vw;
+        border-bottom: 1px solid rgba(207, 216, 220, 1);
+    }
+
+    .modal-body>*
+    {
+        margin: 2.92vw 4.58vw;
+    }
+
+    .modal-header h1
+    {
+        font-size: 5vw;
+    }
+
+    .modal-header img
+    {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .modal-body h2
+    {
+        margin-top: 5vw;
+        font-size: 3.33vw;
+    }
+
+    .wallet-button
+    {
+        border: 1px solid rgba(207, 216, 220, 1);
+        border-radius: 1.67vw;
+        padding: 1.25vw;
+    }
+
+    .wallet-button>*
+    {
+        padding: 0 1.67vw;
+    }
+
+    .wallet-button>*:first-child
+    {
+        width: 12.5vw;
+    }
+
+    .wallet-button p
+    {
+        font-size: 3.33vw;
+    }
+
+    div.wallet-button>*:last-child
+    {
+        width: 5.42vw;
+    }
+}

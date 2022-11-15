@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 
 import navLogo from "../../assets//img/nav-logo.png";
 
-const toggle = () => {
-  const nav = document.getElementById("top-nav");
-  nav.classList.toggle("open");
-};
-
-function TopNav() {
+function TopNav({toggleModal}) {
   return (
     <nav id="top-nav">
       <img id="main-logo" src={navLogo} alt="metabnb logo" />
@@ -27,14 +22,9 @@ function TopNav() {
           <Link to="/#">Community</Link>
         </li>
       </ul>
-      <a href="#connect" id="connect-button">
+      <a href="#connect" id="connect-button" onClick={toggleModal}>
         Connect wallet
       </a>
-      <div id="hamburger" onClick={toggle}>
-        <div className="line top"></div>
-        <div className="line middle"></div>
-        <div className="line bottom"></div>
-      </div>
     </nav>
   );
 }
