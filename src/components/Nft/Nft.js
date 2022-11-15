@@ -11,7 +11,7 @@ function Nft({ info }) {
   } = info;
   return (
     <div className="nft">
-      <img src={img.src} alt={img.alt} />
+      <img src={img.src} alt={img.alt} loading="lazy" />
       <div className="nft-details">
         <div>
           <span className="nft_name">{name}</span>

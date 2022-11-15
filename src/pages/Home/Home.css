@@ -241,6 +241,7 @@
     .banner
     {
         padding: 3.33vw;
+        margin: 9vw 0;
     }
 
     .banner img
@@ -257,6 +258,7 @@
     {
         flex-direction: column;
         gap: 15vh;
+        padding: 12vw 6.94vw;
     }
 
     .showcase section h2
