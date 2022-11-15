@@ -6,7 +6,7 @@ import home_1 from "../../assets/img/hero-1.png";
 import home_2 from "../../assets/img/hero-2.png";
 import home_3 from "../../assets/img/hero-3.png";
 import home_4 from "../../assets/img/hero-4.png";
-import metamask from "../../assets/img/metamask.svg";
+import metamask from "../../assets/img/metamask-banner.svg";
 import mbToken from "../../assets/img/mb-token.svg";
 import opensea from "../../assets/img/opensea.svg";
 import nfts from "../../assets/img/sample-nfts.png";
@@ -16,7 +16,7 @@ import { home } from "../../listNfts";
 function Home() {
   return (
     <>
-      <article className="hero">
+      <header className="hero">
         <section className="intro">
           <h1>
             Rent a <span>Place</span> away from <br />
@@ -38,7 +38,7 @@ function Home() {
           <img className="three" src={home_3} alt="homes in the metaverse" />
           <img className="four" src={home_4} alt="homes in the metaverse" />
         </div>
-      </article>
+      </header>
       <div className="banner">
         <img src={mbToken} alt="mb token" />
         <img src={metamask} alt="metamask" />
