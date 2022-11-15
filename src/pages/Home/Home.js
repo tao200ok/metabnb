@@ -11,6 +11,8 @@ import mbToken from "../../assets/img/mb-token.svg";
 import opensea from "../../assets/img/opensea.svg";
 import nfts from "../../assets/img/sample-nfts.png";
 
+import { home } from "../../listNfts";
+
 function Home() {
   return (
     <>
@@ -44,7 +46,7 @@ function Home() {
       </div>
       <article className="nfts">
         <h2>Inspiration for your next adventure</h2>
-        <Nfts />
+        <Nfts list={home} />
       </article>
       <article id="showcase" className="showcase">
         <section>
