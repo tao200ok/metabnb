@@ -1,5 +1,7 @@
 import "./Home.css";
 
+import Nfts from "../../components/Nfts/Nfts";
+
 import home_1 from "../../assets/img/hero-1.png";
 import home_2 from "../../assets/img/hero-2.png";
 import home_3 from "../../assets/img/hero-3.png";
@@ -40,7 +42,11 @@ function Home() {
         <img src={metamask} alt="metamask" />
         <img src={opensea} alt="opensea" />
       </div>
-      <article id="nfts" className="showcase">
+      <article className="nfts">
+        <h2>Inspiration for your next adventure</h2>
+        <Nfts />
+      </article>
+      <article id="showcase" className="showcase">
         <section>
           <h2>Metabnb NFTs</h2>
           <p>

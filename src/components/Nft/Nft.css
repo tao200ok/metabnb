@@ -1,0 +1,91 @@
+.nft
+{
+    width: 20.28vw;
+    height: 25.83vw;
+    padding: 1.11vw;
+    border-radius: 1.04vw;
+    border: 0.07vw solid #D7D7D7;
+}
+
+.nft img
+{
+    width: 100%;
+}
+
+.nft-details
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-size: 0.83vw;
+}
+
+.nft-details div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-details span
+{
+    padding: 0.17vw 0px;
+}
+
+.stars
+{
+    color: #A02279;
+    font-size: 1.39vw;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .nft
+    {
+        width: auto;
+        height: auto;
+        padding: 1.3vw;
+        border-radius: 1.6vw;
+    }
+
+    .nft-details
+    {
+        font-size: 1.15vw;
+    }
+
+    .nft-details span
+    {
+        padding: 0.35vw 0px;
+    }
+
+    .stars
+    {
+        font-size: 1.8vw;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    .nft
+    {
+        width: 75%;
+        margin: auto;
+        height: auto;
+        padding: 3.33vw;
+        border-radius: 5vw;
+    }
+
+    .nft-details
+    {
+        font-size: 2.34vw;
+    }
+
+    .nft-details span
+    {
+        padding: 0.85vw 0px;
+    }
+
+    .stars
+    {
+        font-size: 3.55vw;
+    }
+}

@@ -119,6 +119,17 @@
     width: 15%;
 }
 
+.nfts
+{
+    padding: 1.32vw 6.94vw;
+}
+
+.nfts h2
+{
+    margin: 2.71vw auto;
+    font-size: 3.33vw;
+    text-align: center;
+}
 
 .showcase
 {
@@ -143,7 +154,7 @@
 .showcase section p
 {
     margin: 2.43vw 0 3.89vw 0;
-    font-size: 1.25vw;
+    font-size: 1.4vw;
 }
 
 .showcase a
@@ -159,14 +170,12 @@
 
 .showcase .nft-showcase
 {
-    /* position: relative; */
     width: 177.89vw;
     height: 39.92vw;
 }
 
 .nft-showcase img
 {
-    /* position: absolute; */
     width: 100%;
 }
 
@@ -237,6 +246,11 @@
     .banner img
     {
         width: 25%;
+    }
+
+    .nfts h2
+    {
+        font-size: 6vw;
     }
 
     .showcase
