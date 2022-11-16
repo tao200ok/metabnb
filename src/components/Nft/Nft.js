@@ -16,7 +16,7 @@ function Nft({ info }) {
         <div>
           <span className="nft_name">{name}</span>
           <span className="nft_price">
-            <strong>{price.value} {price.unit} per night</strong>
+            {price.value} {price.unit} per night
           </span>
         </div>
         <div>

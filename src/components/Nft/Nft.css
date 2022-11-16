@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: 'Red rose bold';
+    src: url(../../assets/fonts/Red_Rose/static/RedRose-Bold.ttf);
+}
+
 .nft
 {
     width: 20.28vw;
@@ -29,6 +35,16 @@
 .nft-details span
 {
     padding: 0.17vw 0px;
+}
+
+.nft span.nft_price
+{
+    font-family: 'Red rose bold';
+}
+
+.nft .nft_price, .nft .nft_availability
+{
+    text-align: right;
 }
 
 .stars
