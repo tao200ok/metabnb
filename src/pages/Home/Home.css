@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Red rose bold';
+    src: url(../../assets/fonts/Red_Rose/static/RedRose-Bold.ttf);
+}
+
 .hero
 {
     display: flex;
@@ -21,12 +26,14 @@
 
 .intro h1
 {
-    font-size: 3.6vw;
+    font-size: 3.3vw;
+    font-family: 'Red rose bold';
 }
 
 .intro h1 span
 {
     color: #A02279;
+    font-family: 'Red rose bold';
 }
 
 .intro p
@@ -128,6 +135,7 @@
 {
     margin: 2.71vw auto;
     font-size: 3.33vw;
+    font-family: 'Red rose bold';
     text-align: center;
 }
 

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Red rose bold';
+    src: url(../../assets/fonts/Red_Rose/static/RedRose-Bold.ttf);
+}
+
 div.modal-container
 {
     position: fixed;
@@ -37,6 +42,7 @@ div.modal-body
 .modal-header h1
 {
     font-size: 1.67vw;
+    font-family: 'Red rose bold';
 }
 
 .modal-header img
@@ -49,6 +55,7 @@ div.modal-body
 {
     margin-top: 1.67vw;
     font-size: 1.11vw;
+    font-weight: 400;
 }
 
 .wallet-button
