@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.22e7ad24.css",
+    "main.css": "./static/css/main.7be7d4a4.css",
     "main.js": "./static/js/main.862c7104.js",
     "static/js/787.928e92cd.chunk.js": "./static/js/787.928e92cd.chunk.js",
     "static/media/sample-nfts.png": "./static/media/sample-nfts.f657885cd260f61e7070.png",
@@ -25,6 +25,7 @@
     "static/media/nft-9.png": "./static/media/nft-9.775fec54fd20ad4e7d51.png",
     "static/media/nft-10.png": "./static/media/nft-10.4867f0414dbc17edcfc8.png",
     "static/media/nft-1.png": "./static/media/nft-1.4d84ca82bdce73df9b26.png",
+    "static/media/RedRose-Bold.ttf": "./static/media/RedRose-Bold.f4ff56a9dc3efc62cc20.ttf",
     "static/media/metamask-banner.svg": "./static/media/metamask-banner.fb52934db13925cb94877c2a07d73fe9.svg",
     "static/media/opensea.svg": "./static/media/opensea.cfd1ca6b48614b8e5c1fac5ac3688b16.svg",
     "static/media/mb-token.svg": "./static/media/mb-token.6a2427bee120a728c62147161737f2d5.svg",
@@ -33,12 +34,12 @@
     "static/media/twtr.svg": "./static/media/twtr.119f0d66523644b858056edac28a2583.svg",
     "index.html": "./index.html",
     "static/media/fb.svg": "./static/media/fb.de2818989d7b9501d054f29c2d2af446.svg",
-    "main.22e7ad24.css.map": "./static/css/main.22e7ad24.css.map",
+    "main.7be7d4a4.css.map": "./static/css/main.7be7d4a4.css.map",
     "main.862c7104.js.map": "./static/js/main.862c7104.js.map",
     "787.928e92cd.chunk.js.map": "./static/js/787.928e92cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22e7ad24.css",
+    "static/css/main.7be7d4a4.css",
     "static/js/main.862c7104.js"
   ]
 }
