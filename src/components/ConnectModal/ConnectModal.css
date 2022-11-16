@@ -3,6 +3,16 @@
     src: url(../../assets/fonts/Red_Rose/static/RedRose-Bold.ttf);
 }
 
+@keyframes enter {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 div.modal-container
 {
     position: fixed;
@@ -22,6 +32,7 @@ div.modal-body
     background: #ffffff;
     border-radius: 1.11vw;
     padding-bottom: 1.67vw;
+    animation: enter 750ms cubic-bezier(0, 0.55, 0.45, 1) 0s 1 normal forwards;
 }
 
 .modal-body .modal-header
